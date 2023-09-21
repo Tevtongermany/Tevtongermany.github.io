@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+.title {
+    color: aliceblue;
+    text-align: center; /* Center text horizontally */
+    margin: auto; /* Center text vertically when used with display: flex */
+    display: flex; /* Enable vertical centering */
+    justify-content: center; /* Center text horizontally within the flex container */
+    align-items: center; /* Center text vertically within the flex container */
+    height: 100vh;
+}
