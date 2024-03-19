@@ -55,12 +55,14 @@
 }
 
 .card-container {
-    align-content: center;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center; /* Center cards horizontally */
-    gap: 10px; /* changes the gap in between the cards */
-  }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px;
+
+
+}
 
 .card {
     width: auto;
@@ -133,3 +135,11 @@
 
 }
 
+@media (max-width: 1000px) {
+    .card-container {
+        padding: 50px;
+    }
+    .title {
+        font-size: 30px;
+    }
+}
