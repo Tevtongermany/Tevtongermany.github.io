@@ -134,7 +134,9 @@
     height: 240px;
 
 }
-
+.pointer-click {
+    cursor: pointer;
+}
 @media (max-width: 1000px) {
     .card-container {
         padding: 50px;
