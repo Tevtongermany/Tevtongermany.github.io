@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: "VCR";
+    src: url('fonts/VCR_OSD_MONO_1.001.ttf');
+    src: url('fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  }
+:root {
+    background-color: rgb(33, 8, 62);
+}
+.navbar {
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.nav-links button {
+    background: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.758);
+    border: none;
+    border-radius: 0%;
+    font-family: 'VCR', serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-links p.button {
+    color: rgb(255, 255, 255);
+    box-shadow: 
+    0 0 20px rgba(255, 255, 255, 0.7), 
+    0 0 30px rgba(255, 255, 255, 0.5), 
+    0 0 40px rgba(255, 255, 255, 0.3);
+}
+
+.title {
+    color: 	#a755ff;
+    font-size: 30px;
+    font-family: 'VCR', serif;
+
+}
